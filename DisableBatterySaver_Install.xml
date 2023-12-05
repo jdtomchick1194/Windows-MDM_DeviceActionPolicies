@@ -1,0 +1,24 @@
+<Replace>
+  <CmdID>c721fe93-8568-4e48-b6fe-2bba373ddfc7</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Vendor/MSFT/Policy/Config/Power/EnergySaverBatteryThresholdOnBattery</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+    </Meta>
+    <Data>0</Data>
+  </Item>
+</Replace>
+<Replace>
+  <CmdID>ab3b9a78-b837-448c-b2cf-ad9e5dedea30</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Vendor/MSFT/Policy/Config/Power/EnergySaverBatteryThresholdPluggedIn</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+    </Meta>
+    <Data>0</Data>
+  </Item>
+</Replace>

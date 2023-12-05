@@ -1,0 +1,12 @@
+<Replace>
+  <CmdID>b3d2d036-cc1c-48eb-bd38-81c3d21fbf6a</CmdID>
+  <Item>
+    <Target>
+	  <LocURI>./Vendor/MSFT/Policy/Config/DeviceLock/MaxInactivityTimeDeviceLock</LocURI>
+	</Target>
+	<Meta>
+	  <Format xmlns="syncml:metinf">int</Format>
+	 </Meta>
+	 <Data>2</Data>
+  </Item>
+</Replace>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <SyncML xmlns="SYNCML:SYNCML1.2">
+     <SyncBody>
+       <Replace>
+         <CmdID>10</CmdID>
+         <Item>
+           <Meta>
+             <Format>chr</Format>
+             <Type>text/plain</Type>
+           </Meta>
+           <Target>
+             <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalSecurityAuthority/ConfigureLsaProtectedProcess</LocURI>
+           </Target>
+           <Data>
+		    &lt;enabled/&gt;
+		   &lt;data id=&amp;quot;ConfigureLsaProtectedProcess&amp;quot; value=&amp;quot;1&amp;quot;/&gt;
+           </Data>
+        </Item>
+      </Replace>
+	  <Final/>
+	 </SyncBody>
+	 </SyncML>

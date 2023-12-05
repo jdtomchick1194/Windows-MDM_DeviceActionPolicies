@@ -1,0 +1,13 @@
+<Replace>
+  <CmdID>{CmdID}</CmdID>
+  <Item>
+    <Target>
+        <LocURI>./DevDetail/Ext/Microsoft/DNSComputerName</LocURI>
+      </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">chr</Format>
+      <Type>text/plain</Type>
+    </Meta>
+    <Data>DIDICountry%SERIAL%</Data>
+  </Item>
+</Replace>

@@ -1,0 +1,12 @@
+<Delete>
+  <CmdID>8ee9285c-d098-45ce-837a-9e0d885d6f95</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Vendor/MSFT/Policy/Config/DeviceLock/MaxInactivityTimeDeviceLock</LocURI>
+    </Target>
+    <Meta>
+      <Format xmlns="syncml:metinf">int</Format>
+    </Meta>
+    <Data>15</Data>
+  </Item>
+</Delete>

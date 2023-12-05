@@ -1,0 +1,12 @@
+<Delete>
+  <CmdID>cf26ae4b-9bd8-4a7a-b117-04dc6462c5e7</CmdID>
+  <Item>
+    <Meta>
+      <Format>chr</Format>
+      <Type>text/plain</Type>
+    </Meta>
+      <Target>
+        <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalSecurityAuthority/ConfigureLsaProtectedProcess</LocURI>
+      </Target>
+      </Item>
+</Delete>
