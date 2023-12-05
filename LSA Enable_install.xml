@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
    <SyncML xmlns="SYNCML:SYNCML1.2">
+   <!--This enabled LSA protected process with the setting "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked."-->
      <SyncBody>
        <Replace>
          <CmdID>10</CmdID>

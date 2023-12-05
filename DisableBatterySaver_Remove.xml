@@ -1,3 +1,4 @@
+<!--Removes settings configured for battery saver mode which sets back to default values-->
 <Delete>
   <CmdID>c721fe93-8568-4e48-b6fe-2bba373ddfc7</CmdID>
   <Item>

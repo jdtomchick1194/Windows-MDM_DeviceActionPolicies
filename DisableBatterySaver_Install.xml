@@ -1,3 +1,4 @@
+<!--Disables battery saver mode on devices when on battery-->
 <Replace>
   <CmdID>c721fe93-8568-4e48-b6fe-2bba373ddfc7</CmdID>
   <Item>
@@ -10,6 +11,7 @@
     <Data>0</Data>
   </Item>
 </Replace>
+<!--Disables battery saver mode when plugged in-->
 <Replace>
   <CmdID>ab3b9a78-b837-448c-b2cf-ad9e5dedea30</CmdID>
   <Item>

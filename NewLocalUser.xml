@@ -1,0 +1,40 @@
+<!--This policy will create a new local Windows user account, set the password, and add it to the Administrators group-->
+<!--This section creates the user, be sure to enter the desired username in the Data tags-->
+<Add>
+	<CmdID>a7c25ed4-41db-44d9-acd1-557d89b68017</CmdID>
+	<Item>
+		<Target>
+			<LocURI>./Device/Vendor/MSFT/Accounts/Users/Username</LocURI>
+		</Target>
+		<Meta>
+			<Format xmlns="syncml:metinf">chr</Format>
+		</Meta>
+		<Data>Username</Data>
+	</Item>
+</Add>
+<!--This sets the password for the above created username, be sure to enter the desired password between the Data tags-->
+<Add>
+	<CmdID>f2ece93e-1fb1-4d72-b760-98dc499bd7fd</CmdID>
+	<Item>
+		<Target>
+			<LocURI>./Device/Vendor/MSFT/Accounts/Users/Username/Password</LocURI>
+		</Target>
+		<Meta>
+			<Format xmlns="syncml:metinf">chr</Format>
+		</Meta>
+		<Data>Password</Data>
+	</Item>
+</Add>
+<!--This adds the above created user to the Administrators group. Set the data to "1" if this user should be added to Users instead -->
+<Add>
+	<CmdID>85ee70e5-43d9-46bd-9160-f58519f510dd</CmdID>
+	<Item>
+		<Target>
+			<LocURI>./Device/Vendor/MSFT/Accounts/Users/Username/LocalUserGroup</LocURI>
+		</Target>
+		<Meta>
+			<Format xmlns="syncml:metinf">int</Format>
+		</Meta>
+		<Data>2</Data>
+	</Item>
+</Add>

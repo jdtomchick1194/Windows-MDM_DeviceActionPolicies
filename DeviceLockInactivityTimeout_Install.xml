@@ -1,3 +1,4 @@
+<!--Sets the time in minutes before the device will lock. Edit the value in the Data tags to desired timeout-->
 <Replace>
   <CmdID>b3d2d036-cc1c-48eb-bd38-81c3d21fbf6a</CmdID>
   <Item>

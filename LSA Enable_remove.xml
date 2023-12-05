@@ -1,3 +1,4 @@
+<!--Removes the setting LsaProtectedProcess, sets back to default-->
 <Delete>
   <CmdID>cf26ae4b-9bd8-4a7a-b117-04dc6462c5e7</CmdID>
   <Item>
