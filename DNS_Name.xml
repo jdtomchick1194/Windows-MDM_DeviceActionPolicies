@@ -1,5 +1,7 @@
+<!--This will set the DNS name for a device where installed-->
+<!--Be sure to enter the desired name between the Data tags-->
 <Replace>
-  <CmdID>{CmdID}</CmdID>
+  <CmdID>131d73c6-1328-4202-a390-d85bf33df298</CmdID>
   <Item>
     <Target>
         <LocURI>./DevDetail/Ext/Microsoft/DNSComputerName</LocURI>
@@ -8,6 +10,6 @@
       <Format xmlns="syncml:metinf">chr</Format>
       <Type>text/plain</Type>
     </Meta>
-    <Data>DIDICountry%SERIAL%</Data>
+    <Data>NAMEHERE</Data>
   </Item>
 </Replace>
