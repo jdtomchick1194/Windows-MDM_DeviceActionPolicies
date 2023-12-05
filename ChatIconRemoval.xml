@@ -13,20 +13,3 @@
         <Data>3</Data>
       </Item>
     </Replace>
-	
-
-<Replace>
-      <CmdID>14b8422c-a489-418d-ae63-0b5a277ac7be</CmdID>
-      <Item>
-        <Target>
-          <LocURI>
-            ./Vendor/MSFT/Policy/Config/Experience/ConfigureChatIcon
-          </LocURI>
-        </Target>
-        <Meta>
-          <Format xmlns="syncml:metinf">int</Format>
-          <Type>text/plain</Type>
-        </Meta>
-        <Data>0</Data>
-      </Item>
-    </Replace>
